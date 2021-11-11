@@ -1,3 +1,7 @@
+## Setup:
+
+`npm install && npm start`
+
 ## Technology: 
 
 I used React with CRA + Redux + Typescript + React-JSS + axios + redux-thunk + react-router-dom + react-icons 
@@ -11,3 +15,7 @@ Since it's a small component with its encapsulated logic, I figured it wouldn't 
 
 When it comes to building a dashboard application, or a web page as a serious game, I personally prefer client side rendering as most data is very dynamic (gets frequently updated) and there is usually little rendering of html and images involved. <br>
 In contrast, when I'm building an eCommerce or a portfolio with static data, I would use an entire framework (like NextJS or Gatsby) and embrace the options it/they offer for performance optimization.
+
+## Small Notes:
+.env.development should usually be added to .gitignore. But I left un-ignored for the code review<br>
+I added the env variables inside Heroku's dashboard for the remote deploy. <br>
