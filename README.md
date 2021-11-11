@@ -17,5 +17,9 @@ When it comes to building a dashboard application, or a web page as a serious ga
 In contrast, when I'm building an eCommerce or a portfolio with static data, I would use an entire framework (like NextJS or Gatsby) and embrace the options it/they offer for performance optimization.
 
 ## Small Notes:
-.env.development should usually be added to .gitignore. But I left un-ignored for the code review<br>
+.env.development should usually be added to .gitignore. But I left it un-ignored for the code review<br>
 I added the env variables inside Heroku's dashboard for the remote deploy. <br>
+
+I couldn't get the backend matrice data because of a 403 fobidden CORS error. CORS related problems can be fixed in the backend. <br>
+I get this error following the API request: <br> `The Same Origin Policy disallows reading the remote resource at https://www.fdj.fr/apigw/rtg/rest/euromillions` <br>
+I then setup a rawData.json object for mocking purposes. I hope there are no problems with that.<br>
