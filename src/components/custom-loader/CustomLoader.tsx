@@ -1,5 +1,3 @@
-import Loader from 'react-loader-spinner'
-
 import useStyles from './styles'
 
 interface ICustomLoader {
@@ -8,19 +6,13 @@ interface ICustomLoader {
 }
 
 const CustomLoader = (props: ICustomLoader) => {
-  const { height = 30, width = 30 } = props
+  const {} = props
 
   const styles = useStyles()
   
   return (
     <div className={styles.customLoaderContainer}>
-      <Loader
-        type='Puff'
-        color='#00BFFF'
-        height={height}
-        width={width}
-        timeout={Infinity}
-      />
+      Loading..
     </div>
   )
 }

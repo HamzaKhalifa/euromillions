@@ -31,7 +31,6 @@ const Game = (props: IGame) => {
     dispatch(requestMatrice())
   }, [dispatch])
   //#endregion Hooks
-  
 
   return (
     <div className={styles.gamePage}>
